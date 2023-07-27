@@ -1,0 +1,59 @@
+.container{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 1em;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: #333;
+    cursor: pointer;
+
+}
+.reset{
+    font-size: 1em;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: #333;
+    cursor: pointer;
+    margin-top: 0 2rem;
+
+}
+#count{
+    font-size: 3rem;
+    margin: 0 2rem;
+}
+.reset:hover{
+    color: olivedrab;
+    border-radius: 0.5em;
+    border: 0.5em 0.5em;
+    padding: 0.5em;
+}
+.btn:hover{
+    color: olivedrab;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: solid 0.5em olive;
+}
+marquee{
+    color: aqua;
+    text-transform: uppercase;
+    
+}
